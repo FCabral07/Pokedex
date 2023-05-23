@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/details.css">
+    <link rel="stylesheet" href="./assets/css/pokedex.css">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Pokédex</title>
+</head>
+<body>
+    <section class="contentDetails grass">
+        <div class="pokemonDetails">
+            <img class="back" src="https://pixlok.com/wp-content/uploads/2021/07/Back-SVG-Icon-9smfe.png" alt="back">
+            <img class="fav" src="https://www.svgrepo.com/download/54280/favorite.svg" alt="fav_icon">
+            <h1 class="name">Bulbasaur</h1>
+            <h4 class="number">#001</h4>
+            <div class="detail">
+                <ol class="types">
+                   <h2 class="grass">Grass</h2>
+                   <h2 class="grass">Poison</h2>
+                </ol>
+            </div>
+        </div>
+        <img class="pokemonDetail" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" alt="Bulbasaur">
+        <div class="infoDetails">
+            <div class="tabs">
+                <div class="tab selected">About</div>
+                <div class="tab">Base Stats</div>
+                <div class="tab">Evolution</div>
+                <div class="tab">Moves</div>
+            </div>
+            <div class="About">
+                <p>Species</p>
+                <h3>Seed</h3>
+                <p>Height</p>
+                <h3>2"3.6"(0.70cm)</h3>
+                <p>Weight</p>
+                <h3>15.2lbs(6.9kg)</h3>
+                <p>Abilities</p>
+                <h3>Overgrow, Chlorophyl</h3>
+            </div>
+            <div class="Breeding">
+                <h1>Breeding</h1>
+                <div class="Sex">
+                    <p>Gender</p>
+                    <h3>87.5%</h3>
+                    <h3>12.5%</h3>
+                </div>
+                <div class="Egg">
+                    <p>Egg Groups</p>
+                    <h3>Monster</h3>
+                    <p>Egg Cycle</p>
+                    <h3>Grass</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Script -->
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

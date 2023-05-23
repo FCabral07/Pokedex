@@ -1,0 +1,130 @@
+.contentDetails{
+    color: #000;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.infoDetails{
+    position: relative;
+    height: 65vh;
+    margin-top: 35vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    z-index: 1;
+
+    background-color: #d1d2d5;
+}
+
+.tabs{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+.tab{
+    padding: 0.7rem;
+    cursor: pointer;
+
+    color: gray;
+}
+
+.tab.selected{
+    filter: brightness(1.0);
+
+    color: #000;
+
+    border-bottom: 2px solid;
+    border-bottom-color:cadetblue;
+}
+
+.pokemonDetails{
+    position: absolute;
+}
+
+.pokemonDetails .back{
+    position: absolute;
+    top: 4.5vh;
+    left: 8vw;
+
+    height: 30px;
+    width: 30px;
+
+    cursor: pointer;
+}
+
+.pokemonDetails .fav{
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+    top: 5vh;
+    left: 80vw;
+
+    cursor: pointer;
+}
+
+.pokemonDetails h1{
+    padding: 2.6em 1.5em;
+
+    color: #fff;
+    font-size: 2rem;
+}
+
+.pokemonDetails .number{
+    position: absolute;
+    left: 80vw;
+    top: 12vh;
+
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.detail .types{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 8em 5em;
+}
+
+.name, .detail{
+    margin: 0;
+    padding: 0;
+}
+
+.types h2{
+    color: #fff;
+    font-size: 0.8rem;
+    
+    filter: brightness(1.2);
+    color: white;
+    border-radius: 0.7rem;
+    
+    text-align: center;
+}
+
+.pokemonDetail{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    z-index: 2;
+}
+
+
+.About{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Sex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Egg{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
